@@ -1,0 +1,20 @@
+/*.popover{ esto es para que dentro del popover permita saltos de línea sin usar el </br>
+    white-space: pre-wrap;    
+}*/ 
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap");
+
+body {
+    font-family: "Cabin", sans-serif;
+}
+/*estilos fuente-logo (nav, newsletter, footer)*/
+.bg-dark h2, .newsletter h3 span {
+    font-family: "Lobster", cursive;
+    font-size: 2.3125em;
+}
+/*estilos sección newsletter*/
+.newsletter h3 span {
+    font-family: "Lobster", cursive;
+    font-size: 1.0715em;
+}

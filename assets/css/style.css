@@ -13,8 +13,37 @@ body {
     font-family: "Lobster", cursive;
     font-size: 2.3125em;
 }
+/*estilos fuentes pizza y recetas (seccion pizza y carrusel, recetas relacionadas y receta)*/
+.sectn-relRecipes, .sectn-recipe, .sectn-pizzaCarru,
+.sectn-pizzaCarru .btn {
+    color: #373A3c;
+}
+/*estilos sección pizza y carrusel*/
+.img-pizzaEspiCahmpi {
+    width: 482px;
+    height: 384px;
+}
+/*estilos preparación*/
+.divPrepare {
+    padding-left: 30px; 
+}
+.pPrepare {
+    /*padding-right: 120px;*/
+    letter-spacing: 0.6px;
+}
 /*estilos sección newsletter*/
+.newsletter {
+    height: 534px;
+}
 .newsletter h3 span {
     font-family: "Lobster", cursive;
     font-size: 1.0715em;
+}
+.newsletter .btn {
+    width: 233px;
+    height: 40px;
+}
+/*estilos footer*/
+footer {
+    height: 120px;
 }

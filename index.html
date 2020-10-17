@@ -10,7 +10,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white mb-2">
         <div class="container">
-            <h2 class="text-white my-3 ricomida">Ricomida</h2>
+            <h2 class="text-white my-3">Ricomida</h2>
             <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -25,27 +25,28 @@
         </div>
     </nav> 
 
-    <section id="recetas" class="container border-bottom border-dark">
+    <section class="container border-bottom border-dark d-flex justify-content-center sectn-pizzaCarru">
 
         <div class="row container-fluid">
-          <div class="col-12 col-lg-6 my-4 px-0">
-            <img src="assets/img/principal.jpg" alt="Pizza espinaca-champiñon, ramita de romer y tomates cherry en su rama" 
-            class="recetas-img img-fluid"/>
+          <div class="col-12 col-lg-5 my-4 px-0">
+            <img  class="img-fluid img-pizzaEspiCahmpi" src="assets/img/principal.jpg" alt="Pizza espinaca-champiñon, ramita de romer y tomates cherry en su rama"/>
           </div>
           <div class="col-12 col-lg-6 my-5 pl-md-4 pl-0">
-            <h1 class="h1 pizza-h1 mb-4">PIZZA AL ESTILO CHICAGO CON ESPINACAS Y CHAMPIÑONES</h1>
+            <h1 class="mb-4 font-weight-bold">PIZZA AL ESTILO CHICAGO CON ESPINACAS Y CHAMPIÑONES</h1>
             <hr />
-            <h4 class="h4 pizza-h4 mb-4">110 MIN / 6 A 8 PORCIONES</h4>
-            <div class="row mt-3 m-0">
-              <button class="btn btn-outline-light text-dark outline mr-4" data-toggle="popover" data-trigger="hover" data-placement="bottom"
+            <h5 class="mb-4 font-weight-bold">110 MIN / 6 A 8 PORCIONES</h5>
+            <div class="d-inline-flex flex-row mt-3 m-0">
+              <button class="btn btn-outline-light outline mr-3" data-toggle="popover" data-trigger="hover" data-placement="bottom"
                 data-content="Presiona para enviar a tu correo">Enviar por correo</button>
-              <button class="btn btn-outline-light text-dark outline" data-toggle="popover" data-trigger="hover" data-placement="right"
+              <button class="btn btn-outline-light outline" data-toggle="popover" data-trigger="hover" data-placement="right"
                 data-content="Agrega esta receta a tus favoritos">Añadir a favoritos</button>
             </div>
           </div>
         </div>
+    </section>    
 
-        <div class="container-fluid p-0 d-none d-sm-block mb-5">
+      <section class="container border-bottom border-dark d-flex justify-content-center sectn-pizzaCarru">
+        <div class="container-fluid d-none d-sm-block my-5">
           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class=""></li>
@@ -93,12 +94,12 @@
         </div>
       </section>
   
-      <section id="preparacion" class="container border-bottom border-dark pb-5 pt-2">
+      <section class="container border-bottom border-dark pb-5 pt-2 d-flex justify-content-center sectn-recipe">
         <div class="row container-fluid my-4">
           <div class="col-12 col-md-6 d-flex flex-column align-items-start mt-0 mt-md-2 px-4 px-md-0">
-            <h1 class="font-weight-bold border-bottom border-dark d-inline-block pb-2 mb-4 ingredientes1">INGREDIENTES</h1>
-            <div class="container col-12 px-0 contenido">
-              <p class="mb-4 h5 font-weight-bold">Masa</p>
+            <h6 class="font-weight-bold border-bottom border-dark d-inline-block pb-2 mb-4">INGREDIENTES</h6>
+            <div class="container col-12 px-0">
+              <h6 class="mb-4">Masa</h6>
               <p class="mb-4">
                 20 gr de levadura seca instantánea <br />
                 1 cucharadita de azúcar <br />
@@ -109,7 +110,7 @@
                 2 cucharaditas de sal <br />
                 625 gr harina
               </p>
-              <p class="mb-4 h5 font-weight-bold">Salsa</p>
+              <p class="mb-4 font-weight-bold">Salsa</p>
               <p class="mb-4">
                 5 cucharadas de aceite de oliva <br />
                 ½ cebolla picada en cubos finos <br />
@@ -119,7 +120,7 @@
                 2 tarros de tomates en cubos al natural <br />
                 2 cucharaditas de azúcar
               </p>
-              <p class="mb-4 h5 font-weight-bold">Relleno</p>
+              <p class="mb-4 font-weight-bold">Relleno</p>
               <p class="mb-4">
                 ½ cebolla, en cubos <br />
                 500 gr hojas de espinacas picadas <br />
@@ -129,10 +130,10 @@
               </p>
             </div>
           </div>
-          <div class="col-6">
-            <h1 class="font-weight-bold border-bottom border-dark d-inline-block pb-2 mb-4 ingredientes1">PREPARACIÓN</h1>
-            <div class="container col-12 px-0 contenido">
-              <p>
+          <div class="col-12 col-md-6 divPrepare">
+            <h6 class="font-weight-bold border-bottom border-dark d-inline-block pb-2 mb-4">PREPARACIÓN</h6>
+            <div class="container col-12 px-0">
+              <p class="pPrepare">
                 1. Para la masa, disolver la levadura y el azúcar en agua tibia en
                 un bol grande. Dejar reposar 2 minutos. Agregar el aceite, la
                 harina de maíz, sal y 400gr de harina. Mezclar bien. Amasar y
@@ -145,7 +146,7 @@
                 Golpear la masa para que baje y luego dejar leudar por 40 minutos
                 adicionales.
               </p>
-              <p>
+              <p class="pPrepare">
                 2. Mientras tanto preparar la salsa: Calentar 4 cucharadas de
                 aceite en una olla a fuego medio. Agregar la cebolla, Orégano
                 Gourmet, Albahaca Gourmet, sal y cocinar hasta que la cebolla esté
@@ -155,21 +156,21 @@
                 espesado, como 30 minutos. Sazonar con sal y pimienta a gusto.
                 Reservar.
               </p>
-              <p>
+              <p class="pPrepare">
                 3. Relleno: Cocinar las chalotas en el aceite de oliva hasta que
                 estén transparentes. Agregar los champiñones y las espinacas,
                 cocinar hasta que estén cocidos y se haya evaporado todo el
                 líquido que hayan votado los vegetales. Reservar.
               </p>
-              <p>4. Calentar el horno a 220C.</p>
-              <p>
+              <p class="pPrepare">4. Calentar el horno a 220C.</p>
+              <p class="pPrepare">
                 5. Una vez que la masa haya reposado, dividirla en dos bolas.
                 Estirar cada masa para cubrir dos moldes (desmontables) de 26 cm,
                 hacer un borde de 5 cm con la masa. Dividir el relleno entre las
                 dos pizza, tapar con el queso mozarella, luego terminar con la
                 salsa de tomates y finalmente espolvorear el queso rallado.
               </p>
-              <p>
+              <p class="pPrepare">
                 6. Hornear por 35 a 40 minutos o hasta que el relleno esté
                 caliente y la base esté esponjosa y dorada. Esperar unos minutos
                 antes de desmoldar.
@@ -179,43 +180,43 @@
         </div>
       </section>
 
-      <section class="container d-flex flex-column justify-content-center align-items-center px-0 mb-5">
-        <h1 class="text-center mt-4 mb-5">RECETAS RELACIONADAS</h1>
+      <section class="container d-flex flex-column justify-content-center align-items-center px-0 mb-5 sectn-relRecipes">
+        <h1 class="text-center mt-4 mb-5 font-weight-bold">RECETAS RELACIONADAS</h1>
 
         <div class="row container-fluid my-4 px-0">
           <div class="col-12 col-md-4 mb-4 mb-md-0 px-2 text-center">
-            <div class="card mr-3">
+            <div class="card">
               <img class="card-img-top" src="assets/img/recipe-card-1.png" alt="Panqueques con manjar y 
               crema, decorados con dos medias frutillas y salsa de chocolate"/>
               <div class="card-body">
-                <h5 class="receta-rel">PANQUEQUES CON MANJAR Y CREMA</h5>
-                <p class="card-text receta-rel">Some quick example text to build on the card title and make up
-                  the bulk of the card's content.</p>
+                <h5>PANQUEQUES CON MANJAR Y CREMA</h5>
+                <p class="card-text">Mus enim elementum dignissim class eleifend justo, ut 
+                  nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.</p>
               </div>
             </div>
           </div>
 
           <div class="col-12 col-md-4 mb-4 mb-md-0 px-2 text-center">
-            <div class="card mr-3">
+            <div class="card">
               <img class="card-img-top" src="assets/img/recipe-card-2.png" alt="Un vaso de tiramisú, apoyado 
               sobre una tabla y decorado con flores lilas alrededor"/>
               <div class="card-body">
-                <h5 class="receta-rel">TIRAMISÚ</h5>
-                <p class="card-text receta-rel">Some quick example text to build on the card title and make up
-                  the bulk of the card's content.</p>
+                <h5>TIRAMISÚ</h5>
+                <p class="card-text">Congue fermentum dignissim rhoncus elementum ac nisi, proin 
+                  phasellus lacinia sed faucibus mauris, taciti scelerisque nulla ornare consequat.</p>
               </div>
             </div>
           </div>
   
           <div class="col-12 col-md-4 mb-4 mb-md-0 px-2 text-center">
-            <div class="card mr-3">
+            <div class="card">
               <img class="card-img-top" src="assets/img/recipe-card-3.png" alt="Un plato servido de un trozo 
               generoso de plateada, con puré y abundante jugo de carne"/>
               <div class="card-body">
-                <h5 class="receta-rel">PLATEADA</h5>
-                <p class="card-text receta-rel">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.</p>
+                <h5>PLATEADA</h5>
+                <p class="card-text">
+                  Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac eleifend risus, 
+                  urna auctor inceptos mattis dapibus.</p>
               </div>
             </div>
           </div>
@@ -223,10 +224,10 @@
         </div>
       </section>
       
-      <section class="container-fluid d-flex flex-column justify-content-center align-items-center bg-danger newsletter">
-        <h1 class="text-white">SUSCRÍBETE EN NUESTRO NEWSLETTER</h1>
+      <section class="container-fluid d-flex flex-column align-items-center justify-content-center bg-danger text-center newsletter">
+        <h1 class="text-white font-weight-bold">SUSCRÍBETE EN NUESTRO NEWSLETTER</h1>
         <h3 class="text-white mb-5">y obtén las mejores recetas que tenemos en <span>Ricomida</span></h3>
-        <button class="btn btn-outline-light subscribe-boton">Empezar</button>
+        <button class="btn btn-outline-light">Empezar</button>
       </section>
 
       <footer class="container-fluid bg-dark d-flex justify-content-center text-white">
